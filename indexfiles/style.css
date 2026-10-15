@@ -14,4 +14,5 @@ body {
     background-color: var(--colorBackground);
     color: var(--colorForeground);
     font-family: "Korean Calligraphy", cursive;
+    font-size: 31px;
 }
