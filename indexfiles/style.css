@@ -1,0 +1,6 @@
+@charset "UTF-8";
+:root {
+    --colorBackground: darkred;
+    --colorForeground: white;
+    --colorAccent: black;
+}
