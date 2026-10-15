@@ -1,6 +1,17 @@
 @charset "UTF-8";
 :root {
-    --colorBackground: darkred;
-    --colorForeground: white;
-    --colorAccent: black;
+    --colorBackground: #090C02;
+    --colorForeground: #A72608;
+    --colorAccent: #BBC5AA;
+}
+@font-face {
+    font-family: "Korean Calligraphy";
+    src: url("koreancalligraphy.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+    background-color: var(--colorBackground);
+    color: var(--colorForeground);
+    font-family: "Korean Calligraphy", cursive;
 }
