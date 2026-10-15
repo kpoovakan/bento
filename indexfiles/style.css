@@ -15,4 +15,68 @@ body {
     color: var(--colorForeground);
     font-family: "Korean Calligraphy", cursive;
     font-size: 31px;
+    padding: 31px;
+    margin: 0;
+    box-sizing: border-box;
+    display: block;
+    width: 100vw;
+    overflow-x: hidden;
+    a:link, a:visited {
+        color: var(--colorAccent);
+        text-decoration: none;
+    }
+    a:hover {
+        cursor: pointer;
+        text-decoration: underline;
+    }
+}
+h1 {
+    font-size: min(314px, 31vw);
+    width: 100%;
+    text-align: center;
+    margin: 0;
+}
+h2 {
+    font-size: min(71px, 13vw);
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    margin-top: 13px;
+}
+h3 {
+    font-size: 31px;
+    width: 100%;
+    text-align: center;
+    margin: 13px;
+    a:link, a:visited, a:hover {
+        color: var(--colorForeground);
+    }
+}
+button {
+    background-color: var(--colorForeground);
+    color: var(--colorBackground);
+    outline: none;
+    border: 3px solid var(--colorForeground);
+    border-radius: 3px;
+    margin: 31px;
+    padding: 13px;
+    font-size: inherit;
+    font-family: inherit;
+}
+button:hover {
+    cursor: pointer;
+    background-color: var(--colorBackground);
+    color: var(--colorForeground);
+}
+
+
+.menu {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.footer {
+    text-align: right;
+    margin-bottom: 0;
+    font-size: 20px;
 }
