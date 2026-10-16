@@ -110,6 +110,9 @@ button:hover {
     max-height: 80%;
 }
 .buttons {
-    position: absolute;
     z-index: 314;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    box-sizing: border-box;
 }
