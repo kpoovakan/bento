@@ -34,7 +34,7 @@ function message(message) { // in which the parameter is just the name, not the 
 
 async function newScene(esc = false) {
     backdrop("counter");
-    if (!esc) await wait(randomNumber(314,1000));
+    if (!esc) await wait(randomNumber(314,628));
     message("rm");
     backdrop("welcome");
     const orders = ["a sushi roll", "two rolls of sushi", "three sushi rolls", "a plate of sashimi", "a single sashimi", "some salmon nigiri", "a plate of nigiri", "a slice of avocado", "a bowl of rice", "wooden chopsticks"];
