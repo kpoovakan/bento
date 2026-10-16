@@ -90,6 +90,9 @@ button:hover {
     border: none;
     outline: none;
     padding: none;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 .backdrop {
     position: absolute;
@@ -110,6 +113,8 @@ button:hover {
     max-height: 80%;
 }
 .buttons {
+    position: absolute;
+    bottom: 3%;
     z-index: 314;
     display: flex;
     width: 100%;
