@@ -59,6 +59,7 @@ async function result() {
         life();
     } else {
         message("safe");
+        point();
     }
     await newScene();
 }
@@ -73,6 +74,29 @@ function hideButtons() {
     document.getElementById("buttons").innerHTML = "";
 }
 
-function life() {
-    //idk yet
+function point() {
+    let cur = document.getElementById("points").innerHTML;
+    cur = Number(cur);
+    cur = cur + 1;
+    document.getElementById("points").innerText = cur;
 }
+
+async function life() {
+    let cur = document.getElementById("lives").innerHTML;
+    cur = Number(cur);
+    cur = cur - 1;
+    document.getElementById("lives").innerText = cur;
+    if (cur === 0) {
+        await dead();
+        return;
+    }
+}
+
+function dead() {
+    alert("oof, too much poison... you died.");
+    window.location.href = "../../";
+}
+
+window.addEventListener("pageshow", (e) => {
+    if (e.persisted) window.location.reload();
+});
