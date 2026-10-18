@@ -144,6 +144,9 @@ button:hover {
     display: flex;
     gap: 3%;
 }
+.nav a {
+    color: var(--colorForeground) !important;
+}
 .navbar {
     width: 100%;
     display: flex;
