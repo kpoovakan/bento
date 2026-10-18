@@ -139,8 +139,14 @@ button:hover {
     0px -3px 3px #e8d1cc;
 }
 .nav {
-    float:left;
-    margin-left:1.314%;
-    display:flex;
-    gap:3%;
+    float: left;
+    margin-left: 1.314%;
+    display: flex;
+    gap: 3%;
+}
+.navbar {
+    width: 100%;
+    display: flex;
+    gap: 3%;
+    justify-content: center;
 }
